@@ -58,7 +58,7 @@ Committed to continuous learning and hands-on practice in both offensive and def
 <br>
 
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/linkedin.com/in/tirthak-likhar-8808a8255/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tirthak.likhar.10@gmail.com) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)]([https://linkedin.com/in/linkedin.com/in/tirthak-likhar-8808a8255/](https://www.linkedin.com/in/tirthak-likhar-8808a8255/)) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tirthak.likhar.10@gmail.com) 
 
 <br>
 <!-- Snake Game Repo View -->
