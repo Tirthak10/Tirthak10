@@ -2,7 +2,7 @@
 
 ## 💫 About Me
 
-### Cybersecurity learner || Exploring both Offensive and defensive Security || Aspiring Cloud Security Engineer 
+### Cybersecurity learner || Exploring both Offensive and Defensive Security || Aspiring Cloud Security Engineer 
 
 <br>
 
