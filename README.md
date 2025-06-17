@@ -6,6 +6,11 @@
 
 <br>
 
+(![Screenshot 2025-06-17 185453](https://github.com/user-attachments/assets/6cff4b40-9478-428b-a970-f517b2378817)
+
+
+
+
 ## 🔍 Current Focus
 
 I'm currently diving into core cybersecurity concepts, hands-on lab work, and real-world tools — with a long-term goal of becoming a **Cloud Security Specialist**.
