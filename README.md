@@ -2,12 +2,7 @@
 
 ## 💫 About Me
 
-💡 Cybersecurity Learner with a growing focus on **Cloud Security**.  
-🎯 Currently building a strong foundation in:
-- Blue Teaming
-- Networking
-- Linux
-- Security Fundamentals
+### Cybersecurity learner || Exploring both Offensive and defensive Security || Aspiring Cloud Security Engineer 
 
 <br>
 
