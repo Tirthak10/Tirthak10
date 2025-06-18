@@ -32,7 +32,8 @@ I'm currently building a solid foundation in cybersecurity through hands-on labs
 <br>
 
 ## Next Milestone: 
-CompTIA Security+ certification
+- CompTIA Security+ certification - (Target 2025)
+- Start AWS Cloud Foundations  
 
 <br>
 
