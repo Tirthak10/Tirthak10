@@ -13,7 +13,7 @@
 
 ## 🔍 Current Focus
 
-I'm Currently building a solid foundation in cybersecurity through hands-on labs and practical tools. I'm especially exploring Cloud Security due to its rapid growth, impact, and long-term career potential. Open to learning across all areas of cybersecurity as I shape my path.
+I'm currently building a solid foundation in cybersecurity through hands-on labs and practical tools. I'm especially exploring Cloud Security due to its rapid growth, impact, and long-term career potential. Open to learning across all areas of cybersecurity as I shape my path.
 
 
 <br>
