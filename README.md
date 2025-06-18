@@ -2,7 +2,7 @@
 
 ## 💫 About Me
 
-### 🔐 Cybersecurity Learner | Exploring Offensive & Defensive Security | Cloud Security Enthusiast | Open to Opportunities
+I'm currently building a solid foundation in cybersecurity through hands-on labs and practical tools. I'm especially exploring Cloud Security due to its rapid growth, impact, and long-term career potential. Open to learning across all areas of cybersecurity as I shape my path.
 
 <br>
 
@@ -10,10 +10,6 @@
 <p align="center">
   <img src="https://i.pinimg.com/originals/dc/4d/b1/dc4db1c340e223ef56883a33df40e00b.gif" alt="Alt text" width="700"/>
 </p>
-
-## 🔍 Current Focus
-
-I'm currently building a solid foundation in cybersecurity through hands-on labs and practical tools. I'm especially exploring Cloud Security due to its rapid growth, impact, and long-term career potential. Open to learning across all areas of cybersecurity as I shape my path.
 
 
 <br>
