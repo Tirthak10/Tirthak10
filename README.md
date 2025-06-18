@@ -13,7 +13,7 @@
 
 ## 🔍 Current Focus
 
-I'm currently diving into core cybersecurity concepts, hands-on lab work, and real-world tools — with a long-term goal of becoming a **Cloud Security Specialist**.
+I'm Currently building a solid foundation in cybersecurity through hands-on labs and practical tools. I'm especially exploring Cloud Security due to its rapid growth, impact, and long-term career potential. Open to learning across all areas of cybersecurity as I shape my path.
 
 
 <br>
