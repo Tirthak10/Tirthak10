@@ -80,6 +80,8 @@ Committed to continuous learning and hands-on practice in both offensive and def
 ## 💡 Personal Learning Journey
 
 ![Still Learning](https://img.shields.io/badge/Still_Learning-E67E22?style=for-the-badge)
+![Hands-On Labs](https://img.shields.io/badge/Hands--On_Labs-007ec6?style=for-the-badge)
+![Road to Cloud Security](https://img.shields.io/badge/Road_to_Cloud_Security-purple?style=for-the-badge)
 
 
 <br>
