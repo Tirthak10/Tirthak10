@@ -82,18 +82,11 @@ Committed to continuous learning and hands-on practice in both offensive and def
 ![Still Learning](https://img.shields.io/badge/Still_Learning-E67E22?style=for-the-badge)
 
 
-
-
-
-
-
-
-
-
 <br>
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Tirthak10&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![Tirthak's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Tirthak10&show_icons=true&theme=dark&hide=prs)
+<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Tirthak10&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 <br>
