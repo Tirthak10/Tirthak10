@@ -15,7 +15,7 @@ I'm currently building a solid foundation in cybersecurity through hands-on labs
 <br>
 
 ## Active Learning Path:
-- **TryHackMe:** Completed PreSecurity path, progressing through Cybersecurity 101
+- [TryHackMe](https://tryhackme.com/p/Sovereign10) : Completed PreSecurity path, progressing through Cybersecurity 101
 - **Google Cybersecurity Professional Certificate:** Network security, risk management, Linux/SQL, Python automation
 - **TCM Security Practical HelpDesk Course:** Real-world IT infrastructure & home lab experience
 - **Self-Study:** Learning about Protocols through TCP/IP illustrated Volume 1 , Linux administration, Windows security 
