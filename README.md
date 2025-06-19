@@ -78,6 +78,8 @@ Committed to continuous learning and hands-on practice in both offensive and def
 ![Coursera](https://img.shields.io/badge/Coursera-0056D2?logo=coursera&logoColor=white&style=for-the-badge)
 ![CompTIA](https://img.shields.io/badge/CompTIA-ED1C24?logo=comptia&logoColor=white&style=for-the-badge)
 
+
+
 ## 💡 Personal Learning Journey
 
 ![Still Learning](https://img.shields.io/badge/Still_Learning-E67E22?style=for-the-badge)
