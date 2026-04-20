@@ -8,7 +8,7 @@ I'm currently building a solid foundation in cybersecurity through hands-on labs
 
 
 <p align="center">
-  <img src="https://i.pinimg.com/originals/dc/4d/b1/dc4db1c340e223ef56883a33df40e00b.gif" alt="Alt text" width="700"/>
+  <img src="https://gifs.alphacoders.com/gifs/view/220320" alt="Alt text" width="700"/>
 </p>
 
 
