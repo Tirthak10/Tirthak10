@@ -46,11 +46,33 @@ Currently grinding **CompTIA Security+ SY0-701** with a late-May 2026 exam targe
 
 <br>
 
-## Active Learning Path:
-- [TryHackMe](https://tryhackme.com/p/Sovereign10) : Completed PreSecurity path, progressing through Cybersecurity 101
-- **Google Cybersecurity Professional Certificate:** Network security, risk management, Linux/SQL, Python automation
-- **TCM Security Practical HelpDesk Course:** Real-world IT infrastructure & home lab experience
-- **Self-Study:** Learning about Protocols through TCP/IP illustrated Volume 1 , Linux administration, Windows security 
+## 🧭 Active Learning Path
+
+> Old path: done. New phase: building real depth.
+
+I've moved past the beginner certificate grind. The focus now is on building **genuine technical depth** — strong Linux and networking fundamentals as the base, a structured certification ladder mapped to actual SOC analyst job requirements, and hands-on projects that produce real evidence of capability.
+
+---
+
+### 🏗️ Layer 1 — Foundations (Ongoing, Parallel to Everything)
+
+Before certifications mean anything, the fundamentals have to be solid. I'm actively strengthening two core areas in parallel with everything else:
+
+#### Linux
+- File system hierarchy, permissions model, user/group management
+- Log analysis — `auth.log`, `syslog`, `journalctl`, `grep` pipelines
+- Process management, `systemctl`, service enumeration
+- Networking tools — `ip`, `ss`, `netstat`, `tcpdump`
+- Bash scripting for automation and log parsing
+- Everything I use gets documented in Obsidian with commands, examples, and real context from lab work
+
+#### Networking
+- TCP/IP model — how packets actually move, not just what the layers are called
+- DNS, HTTP/S, SSH, FTP — protocol-level understanding for traffic analysis
+- Subnetting, routing basics, NAT vs Bridged networking (learnt this the hard way in the SOC lab)
+- Firewall behaviour — UFW, iptables rules, default-deny policies
+- Reading packet captures, understanding what normal vs anomalous traffic looks like
+ 
 
 <br>
 
