@@ -1,4 +1,27 @@
-## [SECURE CONNECTION ESTABLISHED] 🛡️ Hi, I'm Tirthak!
+
+
+<div align="center">
+
+```
+██████████████████████████████████████████████████████████
+█                                                        █
+█   [SECURE CONNECTION ESTABLISHED]                      █
+█   USER: TIRTHAK GIRISH LIKHAR                          █
+█   ROLE: SOC ANALYST — BLUE TEAM                        █
+█   STATUS: ACTIVE                                       █
+█                                                        █
+██████████████████████████████████████████████████████████
+```
+
+</div>
+
+<div align="center">
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00FF41&background=000000&center=true&vCenter=true&width=700&lines=SOC+Analyst+in+the+Making;18-Week+Wazuh+SIEM+Lab+%E2%80%94+9+Simulations+Completed;MITRE+ATT%26CK+%7C+Threat+Detection+%7C+Incident+Response;Currently+Grinding+Security%2B+SY0-701;Blue+Team+%7C+Detection+Engineering+%7C+Compliance)
+
+</div>
+
+---
 
 ## 💫 About Me
 
