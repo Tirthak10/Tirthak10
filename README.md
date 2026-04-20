@@ -82,6 +82,68 @@ Before certifications mean anything, the fundamentals have to be solid. I'm acti
 
 Security+ is the primary objective. Everything else is secondary until this is done.
 
+
+**Domains being covered:**
+```
+├── General Security Concepts
+├── Threats, Vulnerabilities & Mitigations
+├── Security Architecture
+├── Security Operations          ← heaviest focus (most relevant to SOC work)
+└── Security Program Management & Oversight
+```
+
+---
+
+### 🔵 Layer 3 — TryHackMe SEC0 + SEC1 (Queued, Running Parallel)
+
+> **Both purchased. Starting alongside Security+ theory where relevant.**
+
+SEC0 and SEC1 are TryHackMe's structured SOC analyst learning paths. I'm using them to reinforce Security+ concepts with hands-on labs — so theory and practical run together rather than sequentially.
+
+| Course | Focus | Status |
+|--------|-------|--------|
+| **SEC0** | SOC fundamentals, alert triage, log analysis, SIEM basics | 🟡 In progress alongside Security+ |
+| **SEC1** | Threat detection, incident response, threat intelligence, detection engineering | 🔵 Queued after SEC0 |
+
+**Why both:** Security+ gives me the theory. SEC0/SEC1 puts me in front of actual SIEM interfaces, real alert queues, and triage workflows. The combination is what closes the gap between knowing concepts and being able to operate.
+
+---
+
+### 🟣 Layer 4 — SAL1: SOC Analyst Level 1 (TryHackMe) ← Post Security+
+
+> **TryHackMe voucher active. Target: after Security+ is cleared.**
+
+SAL1 is TryHackMe's dedicated SOC Analyst certification — built around the actual daily workflow of an L1 analyst. This is where I go after Security+ is done.
+
+**What it covers:**
+- Phishing analysis and email triage
+- SIEM alert investigation
+- Endpoint log analysis
+- Network traffic analysis
+- Threat intelligence application
+- Writing SOC investigation reports
+
+The report-writing component is something I'm specifically focused on — being able to clearly document what happened, what was found, and what was done is as important as the technical detection work itself.
+
+---
+
+### ⚫ Layer 5 — PSAA: Practical SOC Analyst Associate (TCM Security) ← Final Target
+
+> **TCM Security courses owned. This is the destination cert for this phase.**
+
+PSAA is the most hands-on SOC analyst credential in the stack — built by TCM Security around real SOC operations rather than multiple-choice knowledge testing. This is what I'm building toward.
+
+**What it covers:**
+- Real SOC environment simulation
+- Alert triage and escalation workflows
+- Threat hunting fundamentals
+- Daily SOC reporting and shift handover documentation
+- Incident documentation that would hold up in a real enterprise context
+
+**Why PSAA over alternatives:** It signals to employers that I can sit in an actual SOC seat and perform — not just pass an exam. The combination of Security+ (baseline knowledge) + SAL1 (platform skills) + PSAA (operational practicals) is a complete entry-level SOC analyst credential stack.
+
+---
+
 <br>
 
 ## Technical Foundation:
