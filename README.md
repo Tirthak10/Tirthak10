@@ -8,7 +8,7 @@ I'm currently building a solid foundation in cybersecurity through hands-on labs
 
 
 <p align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDB3dGV4NjRmeXAwYnowNGIzZGJyazRuMHkxM2g1bnhxbDgzdWN2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pylNZOmEWUMwGXdzQj/giphy.gif" alt="Alt text" width="700"/>
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmg3dWt3OHZranpscGpkZHd5Y2JiemJrbnUwcmJnNWtvejlncXllZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qWi6NKfkrt9TgXvIfg/giphy.gif" alt="Alt text" width="700"/>
 </p>
 
 
