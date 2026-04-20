@@ -23,9 +23,18 @@
 
 ---
 
-## 💫 About Me
+## 👨‍💻 Who Am I
 
-I'm currently building a solid foundation in cybersecurity through hands-on labs and practical tools. I'm especially exploring Cloud Security due to its rapid growth, impact, and long-term career potential. Open to learning across all areas of cybersecurity as I shape my path.
+Hey — I'm **Tirthak Girish Likhar**, a final-year B.Tech Computer Science and Engineering student at **Symbiosis Institute of Technology, Nagpur** (Symbiosis International Deemed University).
+
+I'm building a career in **blue team cybersecurity** with a specific focus on SOC operations, threat detection, and detection engineering. I don't just study security theory — I build labs, run real attack simulations, analyze alerts, and write detection rules. Everything I learn goes into a structured **Obsidian knowledge vault** and gets reinforced with **Anki spaced repetition**.
+
+In early 2026, I attended **Nullcon Goa 2026** — one of India's premier security research conferences — where I attended sessions on AIS spoofing and SCADA attacks on maritime systems, and advanced Windows 11 evasion techniques including memory injection and AMSI bypass. That experience locked in my direction: blue team, SOC operations, and eventually threat intelligence and detection engineering at scale.
+
+I just completed an **18-week industry internship at SS Infotech Pvt. Ltd., Nagpur** where I designed, deployed, and operated a fully functional Simulated SOC environment from the ground up — no pre-built labs, no guided walkthroughs, just real engineering decisions on real tools. The project is documented week-by-week in this repository.
+
+Currently grinding **CompTIA Security+ SY0-701** with a late-May 2026 exam target, using Mike Myers video course, Ian Neil's study guide, and Jason Dion practice tests.
+
 
 <br>
 
