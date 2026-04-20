@@ -173,157 +173,157 @@ IN PLANNING / BUILDING NEXT:
 
 ## 🏗️ Flagship Project — 18-Week Simulated SOC Lab
 
-> **"Design and Implementation of a Simulated Security Operations Center (SOC) Environment for Threat Detection and Incident Response"**
-> Industry Internship at **SS Infotech Pvt. Ltd., Nagpur** | January 2026 – May 2026
-> Under: **Mr. Viraj Patle** (Industry Mentor) | **Dr. Shreyas Hole** (Institute Mentor)
+> **"Design and Implementation of a Simulated Security Operations Center (SOC) Environment for Threat Detection and Incident Response"**  
+> Industry Internship at **SS Infotech Pvt. Ltd., Nagpur** — January 2026 to May 2026  
+> Industry Mentor: **Mr. Viraj Patle** | Institute Mentor: **Dr. Shreyas Hole**
 
-This is the most significant technical project I have completed to date. Over 18 weeks, I built a production-grade SOC monitoring environment entirely from open-source tooling on consumer hardware, executed 9 distinct attack simulations mapped to MITRE ATT&CK, wrote custom detection rules, implemented automated active response, performed compliance assessment, and built a custom security dashboard — all documented in weekly progress reports.
+This is the most significant technical project I have completed to date. Over 18 weeks, I built a production-grade SOC monitoring environment entirely from open-source tooling on consumer hardware — deployed a full Wazuh SIEM stack, executed 9 distinct attack simulations mapped to MITRE ATT&CK, authored custom detection rules, implemented automated active response, ran a CIS compliance assessment, and built a custom OpenSearch dashboard. Everything is documented week-by-week in the linked repository.
+
+---
 
 ### 🖥️ Lab Architecture
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
-║           Oracle VirtualBox 7.x — Bridged Adapter Mode              ║
-║                  Home Network — 192.168.1.0/24                       ║
+║         Oracle VirtualBox 7.x — Bridged Adapter — 192.168.1.0/24     ║
 ╠══════════════════╦═══════════════════════╦═══════════════════════════╣
 ║   WAZUH SERVER   ║   WINDOWS ENDPOINT    ║       ATTACKER VM         ║
 ║                  ║                       ║                           ║
 ║ Ubuntu 24.04 LTS ║ Windows 11 Home       ║ Ubuntu 22.04 LTS          ║
 ║ 192.168.1.6      ║ 192.168.1.x (DHCP)    ║ 192.168.1.7 (DHCP)        ║
-║ (Static/Netplan) ║                       ║                           ║
-║ Wazuh v4.7.5     ║ Wazuh Agent v4.7.5    ║ Hydra v9.5                ║
-║ ├─ Manager       ║ Agent ID: 002         ║ Nmap 7.94SVN              ║
-║ ├─ Indexer       ║ LAPTOP-MS9PL5OA       ║ Medusa v2.2               ║
-║ └─ Dashboard     ║ ├─ Security Events    ║                           ║
-║                  ║ ├─ FIM (syscheck)     ║ Attack Simulation         ║
-║ 6GB RAM / 25GB   ║ ├─ SCA               ║ Platform                  ║
-║ Port 1514 (agent)║ ├─ Syscollector       ║                           ║
-║ Port 443 (dash)  ║ └─ Rootcheck         ║ 4GB RAM / 20GB            ║
+║ Static via       ║                       ║                           ║
+║ Netplan          ║ Wazuh Agent v4.7.5    ║ Hydra v9.5                ║
+║                  ║ Agent ID: 002         ║ Nmap 7.94SVN              ║
+║ Wazuh v4.7.5     ║ LAPTOP-MS9PL5OA       ║ Medusa v2.2               ║
+║ - Manager        ║                       ║                           ║
+║ - Indexer        ║ Modules active:       ║ Attack simulation         ║
+║ - Dashboard      ║ Security Events       ║ platform                  ║
+║                  ║ FIM (syscheck)        ║                           ║
+║ 6GB RAM / 25GB   ║ SCA + Syscollector    ║ 4GB RAM / 20GB            ║
+║ Port 1514, 443   ║ Rootcheck             ║                           ║
 ╚══════════════════╩═══════════════════════╩═══════════════════════════╝
 
-Host Machine: Windows 11 | AMD Ryzen 7 6800H | 16GB RAM | 500GB NVMe SSD
+Host: Windows 11  |  AMD Ryzen 7 6800H  |  16GB RAM  |  500GB NVMe SSD
 ```
 
 ---
 
-### 📅 18-Week Project Timeline
+### 📅 18-Week Timeline
 
 | Phase | Weeks | What I Did |
 |-------|-------|------------|
-| **Foundations** | 1–4 | Linux CLI proficiency, filesystem hierarchy, network config tools (ip, ss, netstat), log analysis with grep/journalctl, SOC analyst hierarchy (L1/L2/L3), incident response lifecycle, MITRE ATT&CK Enterprise Matrix deep-dive |
-| **SIEM Deployment** | 5–7 | Studied Wazuh's 8 internal daemons, deployed Wazuh v4.7.5 via all-in-one script, resolved RAM and vm.max_map_count issues, switched VirtualBox from NAT to Bridged mode, registered Windows 11 agent, fixed version mismatch and ossec.conf issues |
-| **Conference** | 8 | Nullcon Goa 2026 — attended sessions on maritime SCADA attacks and Windows 11 EDR evasion techniques, completed TryHackMe SIEM Fundamentals and Windows Event Logs rooms |
-| **Attack Simulations** | 9–13 | EICAR malware detection, failed login detection, FIM validation, SSH brute force with Hydra, custom frequency-based detection rule authoring |
-| **Advanced Features** | 14–17 | Automated iptables IP blocking via Active Response, Nmap reconnaissance detection, CIS Windows 11 SCA (32% compliance), custom OpenSearch MITRE ATT&CK dashboard |
-| **Final Demo** | 18 | Full consolidation, live demonstration of 5 recorded + 4 referenced simulations, report completion |
+| **Foundations** | 1 to 4 | Linux CLI, filesystem hierarchy, networking tools (ip, ss, netstat), log analysis with grep and journalctl, SOC analyst hierarchy L1/L2/L3, incident response lifecycle, MITRE ATT&CK Enterprise Matrix |
+| **SIEM Deployment** | 5 to 7 | Wazuh architecture (8 internal daemons), deployed Wazuh v4.7.5 via all-in-one script, resolved RAM and vm.max_map_count issues, switched VirtualBox NAT to Bridged mode, registered Windows 11 agent, fixed version mismatch and ossec.conf placeholder issues |
+| **Conference** | 8 | Nullcon Goa 2026 — sessions on maritime SCADA attacks (AIS spoofing) and Windows 11 EDR evasion (memory injection, AMSI bypass). TryHackMe SIEM Fundamentals and Windows Event Logs rooms completed |
+| **Attack Simulations** | 9 to 13 | EICAR malware, failed login detection, FIM validation, SSH brute force via Hydra, custom frequency-based detection rule authoring |
+| **Advanced Features** | 14 to 17 | Automated iptables IP blocking via Active Response, Nmap scan detection, CIS Windows 11 SCA (32%), custom OpenSearch MITRE ATT&CK dashboard |
+| **Final Demo** | 18 | Full consolidation, live demo of 5 recorded + 4 referenced simulations, internship report completion |
 
 ---
 
-### ⚔️ All 9 Simulations — Full Detail
+### ⚔️ All 9 Simulations
 
-<details>
-<summary><b>Simulation 1 — EICAR Malware Detection (T1204.002)</b></summary>
+---
 
-**Objective:** Verify that Wazuh can ingest Microsoft Defender AV alerts from a Windows endpoint.
+**Simulation 1 — EICAR Malware Detection — T1204.002**
 
-**Method:** Created the EICAR Standard Anti-Virus Test File on the Windows 11 endpoint via PowerShell:
+Objective: Verify Wazuh can ingest Microsoft Defender AV alerts from the Windows endpoint.
+
+PowerShell command used to create the EICAR test file:
+
 ```powershell
-echo 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*' `
-  > "$env:USERPROFILE\Documents\eicar.txt"
+echo 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*' > "$env:USERPROFILE\Documents\eicar.txt"
 ```
 
-**Detection Chain:** EICAR string written → Microsoft Defender detected as `Virus:DOS/EICAR_Test_File` (Severe) → Event ID 1116 generated in Windows Defender Operational log → Wazuh Agent forwarded event → **Rule 87105 (Level 12) triggered**
+Detection chain: EICAR file written → Defender flagged as `Virus:DOS/EICAR_Test_File` (Severe) → Event ID 1116 generated in Windows Defender Operational log → Wazuh Agent forwarded event → **Rule 87105 Level 12 triggered**
 
-**MITRE Mapping:** T1204.002 — User Execution: Malicious File
-**Result:** ✅ Level 12 Critical alert confirmed in Wazuh Dashboard
+MITRE: T1204.002 — User Execution: Malicious File  
+Result: ✅ Level 12 Critical alert confirmed in Wazuh Dashboard
 
-</details>
+---
 
-<details>
-<summary><b>Simulation 2 — Failed Windows Login Detection (T1078)</b></summary>
+**Simulation 2 — Failed Windows Login Detection — T1078**
 
-**Objective:** Detect repeated failed authentication attempts on the Windows endpoint.
+Objective: Detect repeated failed authentication attempts on the Windows endpoint.
 
-**Method:** Triggered 6 consecutive failed logins on the locked Windows 11 screen (Win+L). Each generated Event ID 4625 with SubStatus 0xC000006A (wrong password).
-
-**Alert Metadata:**
+Method: Triggered 6 consecutive failed logins on the locked Windows 11 screen (Win+L). Each generated Event ID 4625 with SubStatus 0xC000006A (wrong password).
 
 | Field | Value |
 |-------|-------|
 | Event ID | 4625 — Windows Logon Failure |
-| Rule | 60122 (per-attempt) + 18152 (accumulation) |
-| Rule Level | 5 (Medium) |
-| Logon Type | 2 — Interactive |
+| Rules Triggered | 60122 per-attempt + 18152 accumulation |
+| Rule Level | 5 Medium |
+| Logon Type | 2 — Interactive at keyboard |
 | MITRE | T1078 — Valid Accounts |
 | Compliance | GDPR, HIPAA, PCI-DSS, NIST 800-53 |
 
-**Result:** ✅ Alert confirmed, 6 separate Rule 60122 events + Rule 18152 accumulation alert
+Result: ✅ 6 x Rule 60122 events + Rule 18152 accumulation alert confirmed
 
-</details>
+---
 
-<details>
-<summary><b>Simulation 3 — File Integrity Monitoring (T1565)</b></summary>
+**Simulation 3 — File Integrity Monitoring — T1565**
 
-**Objective:** Validate real-time FIM detection on a sensitive Windows system directory.
+Objective: Validate real-time FIM detection on a sensitive Windows system directory.
 
-**Method:**
+PowerShell command used:
+
 ```powershell
 New-Item -Path "C:\Windows\System32\drivers\etc\test-wazuh.txt" -ItemType File
 ```
 
-**Detection:** Wazuh syscheck module detected the new file creation in **real-time mode** (not scheduled scan), capturing MD5 hash, file owner, and full path metadata.
+Wazuh syscheck detected the file in real-time mode — not scheduled scan — capturing MD5 hash, file owner, and full path.
 
 | Field | Value |
 |-------|-------|
 | Rule | 554 — File added to system |
-| Level | 5 (Medium) |
+| Level | 5 Medium |
 | Detection Mode | realtime |
 | MD5 Hash | d41d8cd98f00b204e9800998ecf8427e |
 | Compliance | GDPR II 5.1.f, HIPAA 164.312.c.1, PCI-DSS 11.5, NIST SI.7 |
 
-**Result:** ✅ Real-time FIM alert confirmed
+Result: ✅ Real-time FIM alert confirmed
 
-</details>
+---
 
-<details>
-<summary><b>Simulation 4 — SSH Brute Force via Hydra (T1110)</b></summary>
+**Simulation 4 — SSH Brute Force via Hydra — T1110**
 
-**Objective:** Simulate a credential brute force attack and validate SIEM-level multi-event correlation.
+Objective: Simulate a credential brute force attack and validate SIEM-level multi-event correlation.
 
-**Method:** Installed Hydra v9.5 on attacker VM, created 9-entry password wordlist (correct password last):
+Hydra command executed from attacker VM (192.168.1.7):
+
 ```bash
 hydra -l tirthak -P ~/passwords.txt ssh://192.168.1.6 -t 4 -V
 ```
 
-**Attack completed in ~7 seconds:** 8 failed attempts + 1 success across 4 parallel threads (ports 46184, 46192, 46198, 46212).
-
-**Wazuh Correlation:**
+Attack completed in approximately 7 seconds — 8 failed attempts + 1 success across 4 parallel threads on ports 46184, 46192, 46198, 46212.
 
 | Rule | Description | Level |
 |------|-------------|-------|
-| 5760 | sshd: authentication failed (per-attempt) | 5 |
-| **5763** | **sshd: brute force trying to get access** | **10 (High)** |
+| 5760 | sshd: authentication failed per-attempt | 5 |
+| 5763 | sshd: brute force trying to get access | 10 High |
 | 5715 | sshd: authentication success | 3 |
 
-Rule 5763 demonstrates **true SIEM-level multi-event correlation** — Wazuh correlated events across all 4 parallel Hydra threads into a single high-severity incident.
+Rule 5763 demonstrates true SIEM-level multi-event correlation — Wazuh correlated events across all 4 parallel Hydra threads into a single high-severity incident.
 
-**Compliance Tags:** GDPR IV 35.7.d | HIPAA 164.312.b | PCI-DSS 11.4 | NIST SI.4, AU.14, AC.7
-**Result:** ✅ Rule 5763 Level 10 alert confirmed
+Compliance: GDPR IV 35.7.d | HIPAA 164.312.b | PCI-DSS 11.4 | NIST SI.4, AU.14, AC.7  
+Result: ✅ Rule 5763 Level 10 High alert confirmed
 
-</details>
+---
 
-<details>
-<summary><b>Simulation 5 — Custom Detection Rule 100002 (T1078)</b></summary>
+**Simulation 5 — Custom Detection Rule 100002 — T1078**
 
-**Objective:** Author and deploy a custom frequency-based correlation rule in Wazuh's local ruleset.
+Objective: Author and deploy a custom frequency-based correlation rule in Wazuh's local ruleset.
 
-**Rule authored in `/var/ossec/etc/rules/local_rules.xml`:**
+Rule written to `/var/ossec/etc/rules/local_rules.xml`:
+
 ```xml
 <group name="local,windows,authentication,">
   <rule id="100002" level="10" frequency="5" timeframe="120">
     <if_matched_sid>60122</if_matched_sid>
-    <description>Custom Rule: Multiple failed login attempts detected
-    on Windows endpoint (Event ID 4625)</description>
+    <description>
+      Custom Rule: Multiple failed login attempts detected
+      on Windows endpoint (Event ID 4625)
+    </description>
     <mitre>
       <id>T1078</id>
     </mitre>
@@ -332,19 +332,19 @@ Rule 5763 demonstrates **true SIEM-level multi-event correlation** — Wazuh cor
 </group>
 ```
 
-**Logic:** Triggers at Level 10 when 5 or more Rule 60122 events occur within a 120-second window from the same source.
+Logic: Fires at Level 10 when 5 or more Rule 60122 events occur within a 120-second window from the same source.
 
-**Test:** Ran `runas /user:FakeUser cmd` six times within two minutes on Windows endpoint.
-**Result:** ✅ Rule 100002 Level 10 alert confirmed in dashboard
+Test: Ran `runas /user:FakeUser cmd` six times within two minutes on the Windows endpoint.  
+Result: ✅ Rule 100002 Level 10 alert confirmed in dashboard
 
-</details>
+---
 
-<details>
-<summary><b>Simulation 6 — Automated Active Response — IP Blocking (T1110)</b></summary>
+**Simulation 6 — Automated Active Response — IP Blocking — T1110**
 
-**Objective:** Implement automated firewall response triggered by brute force detection.
+Objective: Implement automated firewall blocking triggered directly by brute force detection — no manual intervention.
 
-**Configuration added to `ossec.conf`:**
+Block added to `/var/ossec/etc/ossec.conf`:
+
 ```xml
 <active-response>
   <command>firewall-drop</command>
@@ -354,31 +354,44 @@ Rule 5763 demonstrates **true SIEM-level multi-event correlation** — Wazuh cor
 </active-response>
 ```
 
-**Verification:**
+Verification command after brute force re-run:
+
 ```bash
 sudo iptables -L INPUT -n | grep 192.168.1
-# Output: DROP all -- 192.168.1.7 0.0.0.0/0
 ```
 
-**Behaviour:** Within seconds of Rule 5763 firing, `wazuh-execd` daemon triggered `firewall-drop`, adding an iptables DROP rule for the attacker IP. Rule automatically removed after 180 seconds. This mirrors enterprise SOAR platform behaviour — pre-approved automated playbook reducing Mean Time to Respond (MTTR).
+Output confirmed:
 
-**Result:** ✅ Automated IP block confirmed via iptables and active-responses.log
+```
+DROP  all  --  192.168.1.7  0.0.0.0/0
+```
 
-</details>
+Within seconds of Rule 5763 firing, `wazuh-execd` triggered `firewall-drop` and added the iptables DROP rule for the attacker IP. Rule automatically removed after 180 seconds. This directly mirrors enterprise SOAR behaviour — automated playbook execution reducing Mean Time to Respond (MTTR).
 
-<details>
-<summary><b>Simulation 7 — Nmap Port Scan Detection (T1046)</b></summary>
+Result: ✅ Automated IP block confirmed via iptables and active-responses.log
 
-**Objective:** Detect network reconnaissance activity via firewall log analysis.
+---
 
-**Attack:**
+**Simulation 7 — Nmap Port Scan Detection — T1046**
+
+Objective: Detect network reconnaissance via firewall log analysis.
+
+Nmap command executed from attacker VM:
+
 ```bash
 sudo nmap -sT 192.168.1.6
 ```
 
-Nmap reported port 22/tcp open, 999 filtered. UFW's default-deny policy generated hundreds of BLOCK entries in `/var/log/syslog`.
+Nmap reported port 22/tcp open, 999 filtered. UFW default-deny policy generated hundreds of BLOCK entries in `/var/log/syslog`.
 
-**Custom Rule 100003 authored:**
+Sample UFW BLOCK entry:
+
+```
+[UFW BLOCK] IN=enp0s3 OUT= SRC=192.168.1.7 DST=192.168.1.6 PROTO=TCP SPT=XXXXX DPT=XXXXX LEN=60
+```
+
+Custom Rule 100003 written to `local_rules.xml`:
+
 ```xml
 <group name="firewall,">
   <rule id="100003" level="7">
@@ -392,114 +405,81 @@ Nmap reported port 22/tcp open, 999 filtered. UFW's default-deny policy generate
 </group>
 ```
 
-**MITRE Mapping:** T1046 — Network Service Discovery
-**Result:** ✅ Rule 100003 Level 7 alert confirmed via syslog evidence
+MITRE: T1046 — Network Service Discovery  
+Result: ✅ Rule 100003 Level 7 alert confirmed via syslog evidence
 
-</details>
+---
 
-<details>
-<summary><b>Simulation 8 — Security Configuration Assessment (CIS Windows 11)</b></summary>
+**Simulation 8 — Security Configuration Assessment — CIS Windows 11 Enterprise Benchmark v1.0.0**
 
-**Objective:** Assess the Windows 11 endpoint's security posture against the CIS Microsoft Windows 11 Enterprise Benchmark v1.0.0.
-
-**Results:**
+Objective: Assess the Windows 11 endpoint's security posture against CIS hardening standards.
 
 | Parameter | Value |
 |-----------|-------|
 | Policy | CIS Microsoft Windows 11 Enterprise Benchmark v1.0.0 |
+| Agent | LAPTOP-MS9PL5OA — Agent ID 002 |
 | Total Checks | 395 |
-| Passed | 127 (32%) |
-| Failed | 259 (65%) |
-| Not Applicable | 9 (3%) |
+| Passed | 127 — 32% |
+| Failed | 259 — 65% |
+| Not Applicable | 9 — 3% |
 
-**Key Failed Checks (immediately exploitable):**
-- No password history enforcement (Check 26000)
-- No minimum password length requirement (Check 26003)
-- No account lockout threshold — endpoint vulnerable to brute force (Check 26007)
-- Password complexity not enforced (Check 26004)
+Key failed checks that are immediately exploitable:
 
-The 32% score is a realistic baseline for a default Windows 11 Home installation. The failed lockout threshold directly correlated with the brute force vulnerability demonstrated in Simulation 4.
+| Check | Requirement | Impact |
+|-------|------------|--------|
+| 26000 | Enforce password history — 24 or more | No history = password reuse possible |
+| 26003 | Minimum password length — 14 characters | Short passwords = brute-forceable |
+| 26007 | Account lockout threshold — 5 or fewer attempts | No lockout = endpoint wide open to brute force |
+| 26004 | Password complexity enabled | No complexity = weak passwords accepted |
 
-**Result:** ✅ SCA scan completed, 32% compliance documented
+The missing account lockout threshold (Check 26007) directly explains why the brute force in Simulation 4 succeeded — the endpoint had no protection against repeated login attempts.
 
-</details>
-
-<details>
-<summary><b>Simulation 9 — Custom OpenSearch Security Dashboard</b></summary>
-
-**Objective:** Build a custom SOC situational awareness dashboard from scratch using live alert data.
-
-**Three visualisations created from `wazuh-alerts-*` index:**
-
-| Panel | Chart Type | Data Field | Key Finding |
-|-------|-----------|-----------|-------------|
-| Alerts by Rule Level | Vertical Bar | rule.level | 10,800 alerts at Level 5; 780 at Level 10; 25 at Level 12 |
-| Top Rules by Description | Pie Chart | rule.description | Top rule: Windows System error events |
-| Top MITRE ATT&CK Tactics | Data Table | rule.mitre.tactic | Defense Evasion (1,151) dominated |
-
-**MITRE Tactic Distribution:**
-```
-Defense Evasion   ████████████████████  1,151 alerts (42.4%)
-Impact            ████████              444   alerts (16.4%)
-Privilege Esc.    ███████               400   alerts (14.7%)
-Initial Access    ███████               359   alerts (13.2%)
-Persistence       ███████               359   alerts (13.2%)
-```
-
-**Result:** ✅ Dashboard saved as "SOC Lab – Security Overview", 3 panels operational
-
-</details>
+Result: ✅ SCA scan completed, 32% compliance score documented
 
 ---
 
-### 📊 Project Results Summary
+**Simulation 9 — Custom OpenSearch Security Dashboard**
+
+Objective: Build a custom SOC situational awareness dashboard from live alert data.
+
+Three visualisations built from scratch using the `wazuh-alerts-*` index in OpenSearch Dashboards:
+
+| Panel Name | Chart Type | Data Field | Key Insight |
+|------------|-----------|-----------|-------------|
+| Alerts by Rule Level | Vertical Bar | rule.level | 10,800 at Level 5 — 780 at Level 10 — 25 at Level 12 |
+| Top Rules by Description | Pie Chart | rule.description | Top: Windows System error events |
+| Top MITRE ATT&CK Tactics | Data Table | rule.mitre.tactic | Defense Evasion dominated at 1,151 alerts |
+
+MITRE Tactic alert distribution:
 
 ```
-Total Alerts Generated:     12,605
-Simulations Completed:      9  (5 recorded + 4 referenced)
-Custom Rules Authored:      2  (Rule 100002 + Rule 100003)
-MITRE Techniques Covered:   5  (T1078, T1204.002, T1565, T1110, T1046)
-MITRE Tactics Covered:      4  (Initial Access, Credential Access, Execution, Discovery/Impact)
-SCA Compliance Score:       32% — CIS Windows 11 Enterprise Benchmark (395 checks)
-Active Response:            Automated iptables DROP in <5 seconds, 180s auto-unblock
-Compliance Frameworks:      GDPR, HIPAA, PCI-DSS, NIST 800-53
+Defense Evasion        ████████████████████   1,151   (42.4%)
+Impact                 ████████                 444   (16.4%)
+Privilege Escalation   ███████                  400   (14.7%)
+Initial Access         ███████                  359   (13.2%)
+Persistence            ███████                  359   (13.2%)
 ```
+
+Defense Evasion dominating is expected — the FIM/syscheck module generates high volumes of registry change events from the Windows endpoint, and registry modification maps to Defense Evasion in ATT&CK.
+
+Dashboard saved as: SOC Lab – Security Overview  
+Result: ✅ 3 panels operational, full MITRE tactic data visible
 
 ---
 
-## 🗺️ Certification Roadmap
+### 📊 Project Results at a Glance
 
 ```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-  2026 Q2  ▶  CompTIA Security+ SY0-701
-               Resources: Mike Myers | Ian Neil | Jason Dion
-               Target: Late May 2026 | Voucher Expiry: July 20, 2026
-               Why: Industry baseline. Required for every SOC role.
-
-  2026 Q3  ▶  BTL1 — Blue Team Labs Level 1
-               Platform: Security Blue Team
-               Why: First hands-on blue team credential.
-
-  2026 Q4  ▶  SAL1 — SOC Analyst Level 1
-               Platform: TryHackMe (voucher active)
-               Why: Platform-native SOC analyst cert, employer-recognized
-
-  2027 Q1  ▶  SEC0 + SEC1  (TryHackMe bundle — purchased)
-               Why: Progressive SOC skills ladder
-
-  2027 Q2  ▶  PSAA — Practical SOC Analyst Associate
-               Platform: TCM Security
-               Why: Hands-on employer-signal cert
-
-  2027+    ▶  CDSA — Certified Defensive Security Analyst
-               Platform: HackTheBox
-               Why: Elite-tier blue team credential
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Total Alerts Generated       12,605
+Simulations Completed        9  (5 live recorded + 4 evidence referenced)
+Custom Detection Rules       2  (Rule 100002 — T1078 | Rule 100003 — T1046)
+MITRE Techniques Covered     5  (T1078, T1204.002, T1565, T1110, T1046)
+MITRE Tactics Covered        4  (Initial Access, Credential Access, Execution, Discovery)
+SCA Compliance Score         32%  —  CIS Windows 11 Enterprise Benchmark  —  395 checks
+Active Response Speed        iptables DROP within 5 seconds of Rule 5763 trigger
+Auto-Unblock                 180 seconds TTL — no manual intervention required
+Compliance Frameworks        GDPR  |  HIPAA  |  PCI-DSS  |  NIST 800-53
 ```
-
----
 
 <br>
 
