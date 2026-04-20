@@ -72,7 +72,15 @@ Before certifications mean anything, the fundamentals have to be solid. I'm acti
 - Subnetting, routing basics, NAT vs Bridged networking (learnt this the hard way in the SOC lab)
 - Firewall behaviour — UFW, iptables rules, default-deny policies
 - Reading packet captures, understanding what normal vs anomalous traffic looks like
+
  
+---
+
+### 🎯 Layer 2 — CompTIA Security+ SY0-701 ← MAIN FOCUS RIGHT NOW
+
+> **Target exam date: Late May 2026 | Voucher expiry: July 20, 2026 — hard deadline**
+
+Security+ is the primary objective. Everything else is secondary until this is done.
 
 <br>
 
