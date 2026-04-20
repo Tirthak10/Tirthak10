@@ -481,74 +481,92 @@ Auto-Unblock                 180 seconds TTL — no manual intervention required
 Compliance Frameworks        GDPR  |  HIPAA  |  PCI-DSS  |  NIST 800-53
 ```
 
-<br>
+## 🧰 Technical Skills
 
-## Technical Foundation:
-- **Operating Systems:** Linux (Ubuntu), Windows, Kali Linux
-- **Networking:** TCP/IP fundamentals, network security protocols
-- **Tools:** VirtualBox, cybersecurity tooling
-- **Programming:** Python for security automation
-- **Lab Environment:** Personal home lab with multiple VMs
+### SIEM & Detection Engineering
+![Wazuh](https://img.shields.io/badge/Wazuh_SIEM-v4.7.5-0078D4?style=for-the-badge)
+![OpenSearch](https://img.shields.io/badge/OpenSearch-Dashboards-005EB8?logo=opensearch&logoColor=white&style=for-the-badge)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-Enterprise-CC0000?style=for-the-badge)
+![Custom Detection Rules](https://img.shields.io/badge/Detection_Rules-XML-orange?style=for-the-badge)
+![Active Response](https://img.shields.io/badge/Active_Response-iptables-black?style=for-the-badge)
 
-<br>
-
-## Next Milestone: 
-- CompTIA Security+ certification - (Target 2025)
-- Start AWS Cloud Foundations  
-
-<br>
-
-## Background:
-Discovered my passion for cybersecurity after exploring various tech domains including full-stack development and AI/ML.
-Committed to continuous learning and hands-on practice in both offensive and defensive security domains. Looking to contribute to security-focused projects and connect with the cybersecurity community.
-
-<br>
-
-## 🖥️ Tech Stack
-
-![Git](https://img.shields.io/badge/GIT-E44C30?logo=git&logoColor=white&style=for-the-badge)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
-![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white&style=for-the-badge)
-![C++](https://img.shields.io/badge/C++-004482?logo=c%2B%2B&logoColor=white&style=for-the-badge)
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white&style=for-the-badge)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge)
-![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white&style=for-the-badge)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?logo=virtualbox&logoColor=white&style=for-the-badge)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white&style=for-the-badge)
+### Operating Systems
+![Ubuntu](https://img.shields.io/badge/Ubuntu_24.04_LTS-E95420?logo=ubuntu&logoColor=white&style=for-the-badge)
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?logo=kalilinux&logoColor=white&style=for-the-badge)
+![Windows](https://img.shields.io/badge/Windows_11-0078D6?logo=windows&logoColor=white&style=for-the-badge)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge)
+
+### Security & Networking Tools
+![Nmap](https://img.shields.io/badge/Nmap-7.94SVN-214478?style=for-the-badge)
+![Hydra](https://img.shields.io/badge/Hydra-v9.5-8B0000?style=for-the-badge)
+![UFW](https://img.shields.io/badge/UFW-iptables-2C2C2C?style=for-the-badge)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?logo=wireshark&logoColor=white&style=for-the-badge)
+
+### Scripting & Automation
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white&style=for-the-badge)
-![Bash](https://img.shields.io/badge/Bash_Script-121011?logo=gnubash&logoColor=white&style=for-the-badge)
-![Windows Terminal](https://img.shields.io/badge/Windows_Terminal-4D4D4D?style=for-the-badge)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=white&style=for-the-badge)
+![Bash](https://img.shields.io/badge/Bash-121011?logo=gnubash&logoColor=white&style=for-the-badge)
 
-
-
-## 🧰 Productivity & Note-Taking
-
+### Lab & Documentation
+![VirtualBox](https://img.shields.io/badge/VirtualBox_7.x-183A61?logo=virtualbox&logoColor=white&style=for-the-badge)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge)
-![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white&style=for-the-badge)
-![Obsidian](https://img.shields.io/badge/Obsidian-purple?logo=obsidian&logoColor=white&style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge)
+![LaTeX](https://img.shields.io/badge/LaTeX-Overleaf-008080?logo=latex&logoColor=white&style=for-the-badge)
+![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?logo=obsidian&logoColor=white&style=for-the-badge)
+![Anki](https://img.shields.io/badge/Anki-Spaced_Repetition-0A6EBD?style=for-the-badge)
 
+### Compliance Frameworks (Hands-On)
+![NIST](https://img.shields.io/badge/NIST_800--53-4A4A4A?style=for-the-badge)
+![GDPR](https://img.shields.io/badge/GDPR-003399?style=for-the-badge)
+![HIPAA](https://img.shields.io/badge/HIPAA-006400?style=for-the-badge)
+![PCI-DSS](https://img.shields.io/badge/PCI--DSS_v4.0-FF6600?style=for-the-badge)
+![CIS](https://img.shields.io/badge/CIS_Benchmarks-Windows_11-1A73E8?style=for-the-badge)
 
-## 🔐 Security Learning Platforms
+---
 
-![TryHackMe](https://img.shields.io/badge/TryHackMe-6f42c1?logo=tryhackme&logoColor=white&style=for-the-badge)
-![TCM Security](https://img.shields.io/badge/TCM_Security-343a40?logo=hackthebox&logoColor=white&style=for-the-badge)
-![Coursera](https://img.shields.io/badge/Coursera-0056D2?logo=coursera&logoColor=white&style=for-the-badge)
-![CompTIA](https://img.shields.io/badge/CompTIA-ED1C24?logo=comptia&logoColor=white&style=for-the-badge)
+## 🔐 Security Platforms (Active)
 
+![TryHackMe](https://img.shields.io/badge/TryHackMe-Premium-6f42c1?logo=tryhackme&logoColor=white&style=for-the-badge)
+![LetsDefend](https://img.shields.io/badge/LetsDefend-VIP+-1e90ff?style=for-the-badge)
+![TCM Security](https://img.shields.io/badge/TCM_Security-Courses_Owned-2C2C2C?style=for-the-badge)
+![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?logo=hackthebox&logoColor=black&style=for-the-badge)
+![CompTIA](https://img.shields.io/badge/CompTIA_Security+-ED1C24?logo=comptia&logoColor=white&style=for-the-badge)
 
+---
 
-## 💡 Personal Learning Journey
+## 📊 GitHub Stats
 
-![Still Learning](https://img.shields.io/badge/Still_Learning-E67E22?style=for-the-badge)
-![Hands-On Labs](https://img.shields.io/badge/Hands--On_Labs-007ec6?style=for-the-badge)
-![Road to Cloud Security](https://img.shields.io/badge/Road_to_Cloud_Security-purple?style=for-the-badge)
+<div align="center">
 
+![Tirthak's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Tirthak10&show_icons=true&theme=dark&hide=prs&border_color=00FF41)
 
-<br>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Tirthak10&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+
+</div>
+
+---
+
+## 🌐 Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tirthak_Likhar-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/tirthak-likhar-8808a8255/)
+[![Email](https://img.shields.io/badge/Email-tirthak.likhar.10@gmail.com-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:tirthak.likhar.10@gmail.com)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Sovereign10-6f42c1?logo=tryhackme&logoColor=white&style=for-the-badge)](https://tryhackme.com/p/Sovereign10)
+
+</div>
+
+---
+
+<div align="center">
+
+![snake gif](https://github.com/Tirthak10/Tirthak10/blob/output/github-snake-dark.svg)
+
+```
+"Detection is only as good as the rules behind it."
+```
+
+</div>
 
 # 📊 GitHub Stats:
 ![Tirthak's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Tirthak10&show_icons=true&theme=dark&hide=prs)
