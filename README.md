@@ -40,7 +40,7 @@ Currently grinding **CompTIA Security+ SY0-701** with a late-May 2026 exam targe
 
 
 <p align="center">
-  <img src="https://i.pinimg.com/originals/dc/4d/b1/dc4db1c340e223ef56883a33df40e00b.gif" alt="Alt text" width="700"/>
+  <img src="https://designmadeinjapan.com/wp-content/uploads/2015/07/tumblr_ni9qrsClUg1qze3hdo1_r2_500.gif" alt="Alt text" width="700"/>
 </p>
 
 
