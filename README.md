@@ -144,6 +144,33 @@ PSAA is the most hands-on SOC analyst credential in the stack — built by TCM S
 
 ---
 
+
+### 🔨 Upcoming Projects (Building the Portfolio)
+
+> Certifications without evidence are just paper. Projects are what make the difference.
+
+```
+IN PLANNING / BUILDING NEXT:
+
+├── 🔵 Expand the SOC Lab
+│   ├── Add a Linux endpoint agent (Ubuntu) alongside Windows
+│   ├── Simulate lateral movement and C2 traffic
+│   └── Build detection coverage for T1021, T1071, T1041 (current gaps)
+│
+├── 🔵 Detection-as-Code
+│   ├── Write Sigma rules for all 9 simulations
+│   └── Maintain a personal detection rule library on GitHub
+│
+├── 🔵 Threat Intelligence Integration
+│   ├── Connect MITRE ATT&CK STIX/TAXII feed to Wazuh
+│   └── Proactive rule tuning based on live threat data
+│
+└── 🔵 Cloud Security Foundations (Post-Security+)
+    ├── Stéphane Maarek AWS course (owned, queued)
+    └── Build a basic cloud security monitoring lab on AWS free tier
+```
+---
+
 <br>
 
 ## Technical Foundation:
