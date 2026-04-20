@@ -566,28 +566,4 @@ Compliance Frameworks        GDPR  |  HIPAA  |  PCI-DSS  |  NIST 800-53
 "Detection is only as good as the rules behind it."
 ```
 
-</div>
 
-# 📊 GitHub Stats:
-![Tirthak's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Tirthak10&show_icons=true&theme=dark&hide=prs)
-<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Tirthak10&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
-<br>
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tirthak-likhar-8808a8255/) 
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tirthak.likhar.10@gmail.com)
-
-
-<br>
-<!-- Snake Game Repo View -->
-<div align="center">
-
-  ![snake gif](https://github.com/Tirthak10/Tirthak10/blob/output/github-snake-dark.svg)
-
-</div>
-
-<br>
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
